@@ -6,7 +6,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/react_phone-catalog/',
+  base: '/phone-catalog/',
   resolve: {
     alias: {
       '@modules': resolve(__dirname, 'src/modules'),
