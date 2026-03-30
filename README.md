@@ -5,6 +5,7 @@ Shop site for phones, tablets, watches, accessories.
 ## ✨ Introduction
 Educational project to sort out knowledge of TSX (Typescript on React), routing, saving history of shopping in browser. Project brougt to me expirience of creating multipage app with adaptive design and huge amount of details that I cant mention in readme.
 
+[Check website for free](https://gadgets-catalogue.vercel.app/)
 ## 💦  Features
 
 - Adaptive design
