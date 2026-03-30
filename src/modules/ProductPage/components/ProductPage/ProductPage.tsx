@@ -185,7 +185,7 @@ export const ProductPage: React.FC = () => {
 
               <div className="productPage__photoZone">
                 <img
-                  src={`${import.meta.env.BASE_URL}/${activeGadget?.images[activePhoto]}`}
+                  src={`${import.meta.env.BASE_URL}${activeGadget?.images[activePhoto]}`}
                   alt="product photo"
                   className="productPage__photo"
                 />
@@ -298,7 +298,7 @@ export const ProductPage: React.FC = () => {
           </h2>
 
           <img
-            src={`${import.meta.env.BASE_URL}/img/product-not-found.png`}
+            src={`${import.meta.env.BASE_URL}img/product-not-found.png`}
             alt="Product not found image"
             className="pageNotFound__photo"
           />
